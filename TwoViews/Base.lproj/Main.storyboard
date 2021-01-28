@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwoViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQk-K0-Z6z">
-                                <rect key="frame" x="20" y="59" width="335" height="350.66666666666669"/>
+                                <rect key="frame" x="20" y="15" width="280" height="245.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fud-Oq-Akw">
-                                <rect key="frame" x="20" y="431.66666666666663" width="335" height="350.66666666666663"/>
+                                <rect key="frame" x="20" y="282.5" width="280" height="245"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
@@ -29,7 +29,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="uQk-K0-Z6z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2oe-ag-9TU"/>
-                            <constraint firstItem="Fud-Oq-Akw" firstAttribute="width" relation="lessThanOrEqual" secondItem="uQk-K0-Z6z" secondAttribute="width" id="5UW-cj-MX1"/>
                             <constraint firstItem="uQk-K0-Z6z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="AmV-8U-h3Y"/>
                             <constraint firstItem="Fud-Oq-Akw" firstAttribute="leading" secondItem="uQk-K0-Z6z" secondAttribute="leading" id="Dap-ha-hwf"/>
                             <constraint firstItem="Fud-Oq-Akw" firstAttribute="height" secondItem="uQk-K0-Z6z" secondAttribute="height" id="Jej-eR-LMO"/>
